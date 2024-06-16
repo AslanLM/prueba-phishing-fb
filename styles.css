@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+
+.login-container {
+    display: flex;
+    max-width: 1080px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.left-section {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.left-section img {
+    height: 106px;
+    width: fit-content; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-left: -28px;
+}
+
+.left-section h2{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+.right-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.login-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input[type="email"]:focus,
+.login-form input[type="password"]:focus {
+    border-color: #1877f2; /* Cambia el color del borde cuando está enfocado */
+    outline: none; /* Quita el contorno predeterminado en algunos navegadores */
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    margin-bottom: 15px;
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.login-form button:hover {
+    background-color: #166fe5;
+}
+
+.login-form a {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dadde1;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+.login-form .newbtn{
+    border: none;
+    width: fit-content;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.login-form .newbtn:hover{
+    background-color: #36a420;
+    text-decoration: none;
+}
+
+.create-account {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.create-account a {
+    text-decoration: none;
+    color: #1877f2;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+}
+
+.right-section p {
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.right-section span{
+    font-weight: 700;
+}
+
+.right-section span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* Estilos para el footer */
+footer {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.language-links, .legal-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.language-links{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dadde1;
+}
+
+.legal-links{
+    padding-top: 10px;
+}
+
+.footer-container a {
+    color: #737373;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #666;
+}
